@@ -1,0 +1,153 @@
+body{        
+        padding-top: 0px;
+        padding-bottom: 15px;
+	margin: 0 0 100px;
+      	padding: 15px;
+    }
+  
+    .fixed-header {
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+
+/*Header Text*/   
+h1 {
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.3em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2em;
+    border-bottom-color: red;
+}
+
+html { 
+  background: url(images/newbackgroundslice1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  position: relative;
+  min-height: 100%;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: #FFA500;
+  overflow: hidden;
+}
+
+/* nav bar links */
+nav a {
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* color on hover */
+nav a:hover {
+  background-color: #FF4500;
+  color: black;
+}
+
+/* color on active link */
+nav a.active {
+  background-color: red;
+  color: white;
+}
+
+/*contact page below*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #FF4500;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #66FF33;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset] {
+  background-color: #FF4500;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #97B2DD;
+  padding: 20px;
+}
+/*Footer*/
+
+#facebook {
+    padding: 1px;
+    font-size: 10px;
+    width: 70px;
+    text-align: center;
+	float: center;
+	background: #B4C7E7;
+    color: white;
+    margin-left: 600px;
+}
+#facebook:hover {
+    opacity: 0.7;
+}
+
+#linkedin {
+    padding: 1px;
+    font-size: 10px;
+    width: 70px;
+	text-align: center:
+	background: #B4C7E7;
+    color: white;
+    margin-left: 5px;
+}
+#linkedin:hover {
+    opacity: 0.7;
+}
+/* social media links*/
+
+#mysocial {
+   text-align: center;
+}
+
+/*footer*/
+footer {
+    background-color: #FFA500;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+}

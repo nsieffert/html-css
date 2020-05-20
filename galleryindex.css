@@ -1,0 +1,120 @@
+body{        
+     padding-top: 5px;
+     padding-bottom: 285px;   
+    }
+
+/*Header Text*/   
+
+h1 {
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.3em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2em;
+    border-bottom-color: red;
+}
+
+html { 
+     background: url(images/newbackgroundslice1.jpg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 
+     position: relative;
+     min-height: 100%;
+}
+
+nav {
+     width: 100%;
+     text-align: center;
+     background-color: #FFA500;
+     overflow: hidden;
+}
+
+/* nav bar links */
+nav a {
+     color: red;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+
+/* color on hover */
+nav a:hover {
+  background-color: #FF4500;
+  color: black;
+}
+
+/* color on active link */
+nav a.active {
+  background-color: red;
+  color: white;
+}
+
+/* gallery stylesheet below */
+
+img {
+width: 18%;
+float: left;
+margin: 1%;
+}
+
+hr {
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #FFA500;
+}
+
+h3 {
+   font-style: italic;
+    text-align: center;
+}
+
+/*Footer*/
+
+#facebook {
+    padding: 1px;
+    font-size: 10px;
+    width: 70px;
+    text-align: center;
+	float: center;
+	background: #B4C7E7;
+    color: white;
+    margin-left: 600px;
+}
+#facebook:hover {
+    opacity: 0.7;
+}
+
+#linkedin {
+    padding: 1px;
+    font-size: 10px;
+    width: 70px;
+	text-align: center:
+	background: #B4C7E7;
+    color: white;
+    margin-left: 5px;
+}
+#linkedin:hover {
+    opacity: 0.7;
+}
+/* social media links*/
+
+#mysocial {
+   text-align: center;
+}
+
+/*footer*/
+footer {
+    background-color: #FFA500;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+}
